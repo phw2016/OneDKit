@@ -7,6 +7,7 @@
 //
 
 #import "CZXViewController.h"
+#import "NSString+Additions.h"
 
 @interface CZXViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSString *ttt = @"gfgf";
+    NSInteger intr = [ttt compareTo:@"rrr"];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
