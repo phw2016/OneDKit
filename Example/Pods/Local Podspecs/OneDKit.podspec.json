@@ -1,7 +1,7 @@
 {
   "name": "OneDKit",
-  "version": "0.1.2",
-  "summary": "A long description of OneDKit.",
+  "version": "0.1.3",
+  "summary": "Add some category.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/phw2016/OneDKit",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/phw2016/OneDKit.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "9.0"

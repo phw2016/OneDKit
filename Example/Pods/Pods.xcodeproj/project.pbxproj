@@ -7,88 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0798E576A2B3132BFF0B327F5CCE36FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2B70F22E33D0E9740C9158A2CE742C83 /* UIScreen+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8198C89F2A46C4E2360E80655B271 /* UIScreen+Additions.m */; };
+		11423AC12B8909921BF0A439981FBF93 /* OneDKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97045A764A6EC496394FE4453DCF27AC /* OneDKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14001D572328A816F2E58FC38D80B0F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		44EBC3B7F1CC29CE1D53DDFAEFFCA651 /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = B1AC3BB35993AB0D12517893F4FDD573 /* UIView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48F92D2A616620E0075AB5C551040690 /* Pods-OneDKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 576FBBB170821344E97E0A43D7CE9CC8 /* Pods-OneDKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FF95520A44217CB2687B6D6907BF5D0 /* OneDKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ABA04F3097A2885A50873F9AF83EE3 /* OneDKit-dummy.m */; };
+		52FACF1C694A9EF832414DAB0AE688E0 /* OneDKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F38D45C803EB5802F24271A17FED17 /* OneDKit-dummy.m */; };
 		666B6CCC759AFEBD9D1C1B17EB3092EB /* Pods-OneDKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D210310F6947A6462DCBDFF4979B3982 /* Pods-OneDKit_Tests-dummy.m */; };
-		6D540612DB4C357FB24BE0C3DBB1A399 /* UIScreen+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 997DACA635ABDB59CA865D783E3D0F5C /* UIScreen+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		708440C8EB318E315D02A9F97F57337B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 548F7209C0D8CEACDC16580582BE4AE7 /* ReplaceMe.m */; };
-		872F5E592308A7141C6444706FA442C6 /* OneDKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2E6568F05DC19E90CB892E05D6D646 /* OneDKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9094EC5B5AD4FCE00A68C6A88659E84A /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1F14D892C1BAD80B7FC902BDE54B7 /* NSString+Additions.m */; };
+		7C748459F16F35FF61E5996C52DDD29A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD67410A18D4925FE5A10FE9050FC73 /* ReplaceMe.m */; };
 		9D7D4ADBF3FD769F263E14B35B69AD7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A5222CB170EE8D6892852A8DA09D0035 /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3437B615CC9BF171C39561506DCCC3 /* NSString+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2493248573CE2C28C24509D55CEB13D /* Pods-OneDKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD806092AEA5E644EFC12C2AB4BB6A30 /* Pods-OneDKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B83ACE809FEA42EE113B1D0FCF840BB5 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EAB73BA6D1B01F7698FD73431FB59 /* UIView+Additions.m */; };
 		BCCC6ACA637B7525B585DBCA4E395465 /* Pods-OneDKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6959B14DCC2F6E68D404CCC6A656611 /* Pods-OneDKit_Example-dummy.m */; };
 		D2912DCACBCB308283B59665E0FEB067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D33172AD8FA93F6352D978581F36C21D /* UIScreen+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0131806A23464395626991651A02F4FA /* UIScreen+Additions.m */; };
+		D684EECB4FF9C81138BAADE0F18E1EBE /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2FC0412CF318728149EE56B113DD2E /* NSString+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9C6E3EA030FCBC64FAF5109B9BC5D0 /* UIScreen+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB09D2B6280C138485F549435344D26 /* UIScreen+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5CDBF00124E803C036AACD6E19874B6 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FD9061F29BF4C85239F5B6A585B400 /* NSString+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		40057C808518944023D18C9FE8F7D5E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A01C85EB0D22F61C623C933D6131BDF;
-			remoteInfo = OneDKit;
-		};
-		75A8C18D9DA953183BFFC85CA56FB11D /* PBXContainerItemProxy */ = {
+		34FE9638CFC912F0B40BE049CA84FDDC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F24918A9EDF2FF7DB456A91B0AD6A085;
 			remoteInfo = "Pods-OneDKit_Example";
 		};
+		554F9FB145AC91EEE45BA8D0A4D5D7D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A01C85EB0D22F61C623C933D6131BDF;
+			remoteInfo = OneDKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0131806A23464395626991651A02F4FA /* UIScreen+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Additions.m"; sourceTree = "<group>"; };
 		088659F97353DC21EF68AF60C8011271 /* Pods-OneDKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneDKit_Example-Info.plist"; sourceTree = "<group>"; };
 		1616268FF8BD68F915E758BA306BEF12 /* OneDKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OneDKit.framework; path = OneDKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40ABA04F3097A2885A50873F9AF83EE3 /* OneDKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OneDKit-dummy.m"; sourceTree = "<group>"; };
+		3B4EF1E91A6EBB5269181837800345E9 /* OneDKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OneDKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3EB09D2B6280C138485F549435344D26 /* UIScreen+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Additions.h"; sourceTree = "<group>"; };
 		40D4362CD399A5449309597F79399ECC /* Pods-OneDKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneDKit_Tests.modulemap"; sourceTree = "<group>"; };
 		48BE1FD5C171ED000783CCA40C352BE6 /* Pods-OneDKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneDKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4B2E6568F05DC19E90CB892E05D6D646 /* OneDKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneDKit-umbrella.h"; sourceTree = "<group>"; };
-		4CA8198C89F2A46C4E2360E80655B271 /* UIScreen+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Additions.m"; sourceTree = "<group>"; };
-		4D2AF04EF84763A17BB383D3F31C500F /* OneDKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneDKit.debug.xcconfig; sourceTree = "<group>"; };
-		4DF1F14D892C1BAD80B7FC902BDE54B7 /* NSString+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
-		548F7209C0D8CEACDC16580582BE4AE7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OneDKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		553E23B38B0FADD4660B243FD6EE2397 /* Pods-OneDKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneDKit_Example.modulemap"; sourceTree = "<group>"; };
 		576FBBB170821344E97E0A43D7CE9CC8 /* Pods-OneDKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneDKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		593C84F539614894FD0B3054C88199E6 /* OneDKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneDKit.debug.xcconfig; sourceTree = "<group>"; };
+		65B01777A71A3BF9B3CB1A4A7BCBCE6F /* OneDKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OneDKit.modulemap; sourceTree = "<group>"; };
+		6A1EAB73BA6D1B01F7698FD73431FB59 /* UIView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		71F38D45C803EB5802F24271A17FED17 /* OneDKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OneDKit-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		764413627FFDC1BBBDD189E7608E1840 /* OneDKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneDKit-prefix.pch"; sourceTree = "<group>"; };
 		7D48325037E291D84BC1FED713CC57E5 /* Pods-OneDKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneDKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		840AAC04039D834E199101D850FB0471 /* OneDKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneDKit.release.xcconfig; sourceTree = "<group>"; };
 		8614B403CE8F6AC6CEFFD5B6427D9318 /* Pods-OneDKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneDKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		917BAC2120E1D7A96A6457F0F12A6F8B /* OneDKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OneDKit.modulemap; sourceTree = "<group>"; };
-		997DACA635ABDB59CA865D783E3D0F5C /* UIScreen+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Additions.h"; sourceTree = "<group>"; };
+		8F80F37089B63FABC40F2FBEB36C1A1D /* OneDKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OneDKit-Info.plist"; sourceTree = "<group>"; };
+		97045A764A6EC496394FE4453DCF27AC /* OneDKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneDKit-umbrella.h"; sourceTree = "<group>"; };
+		9B230DC7FA29D1683B83565EFBFD4888 /* OneDKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneDKit-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A070C499E96A36E06D7E4654CBCDC8B9 /* OneDKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OneDKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC973225F94E3396F2DAD75654CC96D2 /* Pods_OneDKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneDKit_Example.framework; path = "Pods-OneDKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2FC0412CF318728149EE56B113DD2E /* NSString+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		B1AC3BB35993AB0D12517893F4FDD573 /* UIView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		B2FD9061F29BF4C85239F5B6A585B400 /* NSString+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
 		BB36A662EBB3A6912159F0FFFFE15547 /* Pods-OneDKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneDKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C144228A1E26CF22886F367250BC2411 /* OneDKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneDKit.release.xcconfig; sourceTree = "<group>"; };
 		C3EBBEE0744D034A1E79C251DE60A9A5 /* Pods-OneDKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneDKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		CAD67410A18D4925FE5A10FE9050FC73 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OneDKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		CBD596586032FD3B6B5DC5058FF8AC3B /* Pods-OneDKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneDKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CCF923022F6B4C84A753323AC6CE94F9 /* OneDKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OneDKit-Info.plist"; sourceTree = "<group>"; };
-		CF3437B615CC9BF171C39561506DCCC3 /* NSString+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
 		D210310F6947A6462DCBDFF4979B3982 /* Pods-OneDKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneDKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		D33022F953BECE821FA42C0D89068C91 /* Pods_OneDKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneDKit_Tests.framework; path = "Pods-OneDKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45A4973931000E684CCB2861A51B87C /* Pods-OneDKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneDKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D6959B14DCC2F6E68D404CCC6A656611 /* Pods-OneDKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneDKit_Example-dummy.m"; sourceTree = "<group>"; };
-		DD4D843A07D18C125FED0906A6917DD5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F14BF27971BF6347423E0C5EBE6EECB0 /* Pods-OneDKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneDKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F23EF93D3616B33A72285C3FEC33F9A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F5BEA0E6471C2EF9EF91158AC8AF602F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F8D58F598935B426829F18EEF910212F /* Pods-OneDKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneDKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FAC04844524213A3031827E93D8BA96D /* Pods-OneDKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneDKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FD806092AEA5E644EFC12C2AB4BB6A30 /* Pods-OneDKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneDKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		FE2E22128C5B91B0EC22227440A58E3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		377AD41D56BC871B8095D9D50CB82E29 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0798E576A2B3132BFF0B327F5CCE36FB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81D8320ADF95427E65942E72A3225AE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,25 +101,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6C2DF48A53021ED1CBDCA81FAF5A5D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14001D572328A816F2E58FC38D80B0F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		233154DE86DEDC963582B4523973DD1A /* Pod */ = {
+		0F42E494AE26DC025CC3F6E230DC74C8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FE2E22128C5B91B0EC22227440A58E3D /* LICENSE */,
-				A070C499E96A36E06D7E4654CBCDC8B9 /* OneDKit.podspec */,
-				DD4D843A07D18C125FED0906A6917DD5 /* README.md */,
+				F5BEA0E6471C2EF9EF91158AC8AF602F /* LICENSE */,
+				3B4EF1E91A6EBB5269181837800345E9 /* OneDKit.podspec */,
+				F23EF93D3616B33A72285C3FEC33F9A1 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		15997F8615E66E2AE4A588AFD20B266B /* OneDKit */ = {
+			isa = PBXGroup;
+			children = (
+				CAD67410A18D4925FE5A10FE9050FC73 /* ReplaceMe.m */,
+				548959F84DDEE0F43E32738A95C2ECC6 /* category */,
+				0F42E494AE26DC025CC3F6E230DC74C8 /* Pod */,
+				3C9E9065FAE04F2F2DF106629465BEAA /* Support Files */,
+			);
+			name = OneDKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3C9E9065FAE04F2F2DF106629465BEAA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65B01777A71A3BF9B3CB1A4A7BCBCE6F /* OneDKit.modulemap */,
+				71F38D45C803EB5802F24271A17FED17 /* OneDKit-dummy.m */,
+				8F80F37089B63FABC40F2FBEB36C1A1D /* OneDKit-Info.plist */,
+				9B230DC7FA29D1683B83565EFBFD4888 /* OneDKit-prefix.pch */,
+				97045A764A6EC496394FE4453DCF27AC /* OneDKit-umbrella.h */,
+				593C84F539614894FD0B3054C88199E6 /* OneDKit.debug.xcconfig */,
+				C144228A1E26CF22886F367250BC2411 /* OneDKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OneDKit";
 			sourceTree = "<group>";
 		};
 		43C3B753EB3133E1613F67E799F792B4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D11190E34491C38F801F2C8BD6A64025 /* OneDKit */,
+				15997F8615E66E2AE4A588AFD20B266B /* OneDKit */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		548959F84DDEE0F43E32738A95C2ECC6 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				AE2FC0412CF318728149EE56B113DD2E /* NSString+Additions.h */,
+				B2FD9061F29BF4C85239F5B6A585B400 /* NSString+Additions.m */,
+				3EB09D2B6280C138485F549435344D26 /* UIScreen+Additions.h */,
+				0131806A23464395626991651A02F4FA /* UIScreen+Additions.m */,
+				B1AC3BB35993AB0D12517893F4FDD573 /* UIView+Additions.h */,
+				6A1EAB73BA6D1B01F7698FD73431FB59 /* UIView+Additions.m */,
+			);
+			name = category;
+			path = OneDKit/Classes/category;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -171,18 +216,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D11190E34491C38F801F2C8BD6A64025 /* OneDKit */ = {
-			isa = PBXGroup;
-			children = (
-				548F7209C0D8CEACDC16580582BE4AE7 /* ReplaceMe.m */,
-				DE3D309D4DABF8319824F6A99A10484D /* category */,
-				233154DE86DEDC963582B4523973DD1A /* Pod */,
-				D676A92C2D8AAD700B75284A965FBD05 /* Support Files */,
-			);
-			name = OneDKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,33 +232,6 @@
 				D33022F953BECE821FA42C0D89068C91 /* Pods_OneDKit_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D676A92C2D8AAD700B75284A965FBD05 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				917BAC2120E1D7A96A6457F0F12A6F8B /* OneDKit.modulemap */,
-				40ABA04F3097A2885A50873F9AF83EE3 /* OneDKit-dummy.m */,
-				CCF923022F6B4C84A753323AC6CE94F9 /* OneDKit-Info.plist */,
-				764413627FFDC1BBBDD189E7608E1840 /* OneDKit-prefix.pch */,
-				4B2E6568F05DC19E90CB892E05D6D646 /* OneDKit-umbrella.h */,
-				4D2AF04EF84763A17BB383D3F31C500F /* OneDKit.debug.xcconfig */,
-				840AAC04039D834E199101D850FB0471 /* OneDKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OneDKit";
-			sourceTree = "<group>";
-		};
-		DE3D309D4DABF8319824F6A99A10484D /* category */ = {
-			isa = PBXGroup;
-			children = (
-				CF3437B615CC9BF171C39561506DCCC3 /* NSString+Additions.h */,
-				4DF1F14D892C1BAD80B7FC902BDE54B7 /* NSString+Additions.m */,
-				997DACA635ABDB59CA865D783E3D0F5C /* UIScreen+Additions.h */,
-				4CA8198C89F2A46C4E2360E80655B271 /* UIScreen+Additions.m */,
-			);
-			name = category;
-			path = OneDKit/Classes/category;
 			sourceTree = "<group>";
 		};
 		F344B3960B7D080630983ED7E17D4DDB /* Pods-OneDKit_Tests */ = {
@@ -247,16 +253,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5FF24CDEBA85E899A4BD2D8A19183544 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5222CB170EE8D6892852A8DA09D0035 /* NSString+Additions.h in Headers */,
-				872F5E592308A7141C6444706FA442C6 /* OneDKit-umbrella.h in Headers */,
-				6D540612DB4C357FB24BE0C3DBB1A399 /* UIScreen+Additions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9CDDF01F82C5DAE3132B901F5307458B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +266,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				48F92D2A616620E0075AB5C551040690 /* Pods-OneDKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BC52C2BC57F464B3FF08EB82CC9E96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D684EECB4FF9C81138BAADE0F18E1EBE /* NSString+Additions.h in Headers */,
+				11423AC12B8909921BF0A439981FBF93 /* OneDKit-umbrella.h in Headers */,
+				DA9C6E3EA030FCBC64FAF5109B9BC5D0 /* UIScreen+Additions.h in Headers */,
+				44EBC3B7F1CC29CE1D53DDFAEFFCA651 /* UIView+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +295,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				609F1268445182A747F5320EED69F0AA /* PBXTargetDependency */,
+				61166A005601452201275ABD550888C3 /* PBXTargetDependency */,
 			);
 			name = "Pods-OneDKit_Tests";
 			productName = "Pods-OneDKit_Tests";
@@ -297,12 +304,12 @@
 		};
 		9A01C85EB0D22F61C623C933D6131BDF /* OneDKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BB79835C24FC8DC3139B118734CDE12 /* Build configuration list for PBXNativeTarget "OneDKit" */;
+			buildConfigurationList = E2665A77EDADDB5F821BEDC5566F0E91 /* Build configuration list for PBXNativeTarget "OneDKit" */;
 			buildPhases = (
-				5FF24CDEBA85E899A4BD2D8A19183544 /* Headers */,
-				39A99DF5E94E97B5C70059E71A733426 /* Sources */,
-				377AD41D56BC871B8095D9D50CB82E29 /* Frameworks */,
-				B545A7C08C67D7D890DAD2647258B339 /* Resources */,
+				D7BC52C2BC57F464B3FF08EB82CC9E96 /* Headers */,
+				0E347C84B52AA7B864583990B6E22783 /* Sources */,
+				A6C2DF48A53021ED1CBDCA81FAF5A5D3 /* Frameworks */,
+				906F149E289074B94FA145CDC3C209FC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -325,7 +332,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3AFF595BD1125C5108E0994A0BB99C43 /* PBXTargetDependency */,
+				79875A88C4FDCD13EAB032A6577F2699 /* PBXTargetDependency */,
 			);
 			name = "Pods-OneDKit_Example";
 			productName = "Pods-OneDKit_Example";
@@ -376,7 +383,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B545A7C08C67D7D890DAD2647258B339 /* Resources */ = {
+		906F149E289074B94FA145CDC3C209FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,22 +393,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0E347C84B52AA7B864583990B6E22783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5CDBF00124E803C036AACD6E19874B6 /* NSString+Additions.m in Sources */,
+				52FACF1C694A9EF832414DAB0AE688E0 /* OneDKit-dummy.m in Sources */,
+				7C748459F16F35FF61E5996C52DDD29A /* ReplaceMe.m in Sources */,
+				D33172AD8FA93F6352D978581F36C21D /* UIScreen+Additions.m in Sources */,
+				B83ACE809FEA42EE113B1D0FCF840BB5 /* UIView+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A0C1705205057447E1FB695D616ED6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				666B6CCC759AFEBD9D1C1B17EB3092EB /* Pods-OneDKit_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39A99DF5E94E97B5C70059E71A733426 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9094EC5B5AD4FCE00A68C6A88659E84A /* NSString+Additions.m in Sources */,
-				5FF95520A44217CB2687B6D6907BF5D0 /* OneDKit-dummy.m in Sources */,
-				708440C8EB318E315D02A9F97F57337B /* ReplaceMe.m in Sources */,
-				2B70F22E33D0E9740C9158A2CE742C83 /* UIScreen+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,17 +424,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3AFF595BD1125C5108E0994A0BB99C43 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OneDKit;
-			target = 9A01C85EB0D22F61C623C933D6131BDF /* OneDKit */;
-			targetProxy = 40057C808518944023D18C9FE8F7D5E6 /* PBXContainerItemProxy */;
-		};
-		609F1268445182A747F5320EED69F0AA /* PBXTargetDependency */ = {
+		61166A005601452201275ABD550888C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OneDKit_Example";
 			target = F24918A9EDF2FF7DB456A91B0AD6A085 /* Pods-OneDKit_Example */;
-			targetProxy = 75A8C18D9DA953183BFFC85CA56FB11D /* PBXContainerItemProxy */;
+			targetProxy = 34FE9638CFC912F0B40BE049CA84FDDC /* PBXContainerItemProxy */;
+		};
+		79875A88C4FDCD13EAB032A6577F2699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneDKit;
+			target = 9A01C85EB0D22F61C623C933D6131BDF /* OneDKit */;
+			targetProxy = 554F9FB145AC91EEE45BA8D0A4D5D7D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -529,6 +537,37 @@
 			};
 			name = Debug;
 		};
+		5309B40363845EDD813216777E5E0AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C144228A1E26CF22886F367250BC2411 /* OneDKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OneDKit/OneDKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OneDKit/OneDKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OneDKit/OneDKit.modulemap";
+				PRODUCT_MODULE_NAME = OneDKit;
+				PRODUCT_NAME = OneDKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		572563E3BDA43FB86FF5B1F8D4692D94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D45A4973931000E684CCB2861A51B87C /* Pods-OneDKit_Example.debug.xcconfig */;
@@ -555,6 +594,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B528798070FE5CBF9F9770AF31C6BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593C84F539614894FD0B3054C88199E6 /* OneDKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OneDKit/OneDKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OneDKit/OneDKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OneDKit/OneDKit.modulemap";
+				PRODUCT_MODULE_NAME = OneDKit;
+				PRODUCT_NAME = OneDKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -593,36 +662,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		924AEEA97CD88EEAEC9D971CE4164323 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D2AF04EF84763A17BB383D3F31C500F /* OneDKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OneDKit/OneDKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OneDKit/OneDKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OneDKit/OneDKit.modulemap";
-				PRODUCT_MODULE_NAME = OneDKit;
-				PRODUCT_NAME = OneDKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		A8E0923F063C07A592CFAA9947ED4236 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -719,37 +758,6 @@
 			};
 			name = Release;
 		};
-		D014556BDF0CDC761D6E0981DC29C2ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 840AAC04039D834E199101D850FB0471 /* OneDKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OneDKit/OneDKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OneDKit/OneDKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OneDKit/OneDKit.modulemap";
-				PRODUCT_MODULE_NAME = OneDKit;
-				PRODUCT_NAME = OneDKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -758,15 +766,6 @@
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5BB79835C24FC8DC3139B118734CDE12 /* Build configuration list for PBXNativeTarget "OneDKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				924AEEA97CD88EEAEC9D971CE4164323 /* Debug */,
-				D014556BDF0CDC761D6E0981DC29C2ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -785,6 +784,15 @@
 			buildConfigurations = (
 				572563E3BDA43FB86FF5B1F8D4692D94 /* Debug */,
 				A8E0923F063C07A592CFAA9947ED4236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2665A77EDADDB5F821BEDC5566F0E91 /* Build configuration list for PBXNativeTarget "OneDKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B528798070FE5CBF9F9770AF31C6BA9 /* Debug */,
+				5309B40363845EDD813216777E5E0AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

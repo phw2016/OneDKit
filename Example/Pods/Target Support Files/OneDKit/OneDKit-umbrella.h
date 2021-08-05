@@ -12,6 +12,7 @@
 
 #import "NSString+Additions.h"
 #import "UIScreen+Additions.h"
+#import "UIView+Additions.h"
 
 FOUNDATION_EXPORT double OneDKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char OneDKitVersionString[];
