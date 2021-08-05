@@ -1,0 +1,6 @@
+framework module OneDKit {
+  umbrella header "OneDKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

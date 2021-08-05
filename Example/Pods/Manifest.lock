@@ -1,0 +1,16 @@
+PODS:
+  - OneDKit (0.1.0)
+
+DEPENDENCIES:
+  - OneDKit (from `../`)
+
+EXTERNAL SOURCES:
+  OneDKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OneDKit: cacb17b9af2bd1b2e293901dcf3e5ce1fd7dfc1c
+
+PODFILE CHECKSUM: b4554d22a9e2e3547bfcc7b2359017df3bbbc15d
+
+COCOAPODS: 1.10.1
