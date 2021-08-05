@@ -1,5 +1,5 @@
 PODS:
-  - OneDKit (0.1.1)
+  - OneDKit (0.1.2)
 
 DEPENDENCIES:
   - OneDKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OneDKit: 3b4000f5ea5fa560427f3c996b06da35b222723b
+  OneDKit: e5d2d7a70bac1730085369be291ad11aadc38159
 
 PODFILE CHECKSUM: 0c16bd24abf5f917630dd5c625842eabe393afdd
 
